@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home || Chichi Luxurious Apartments</title>
+    <link rel="stylesheet" href="Styles/success.css">
+</head>
+<body>
+    <section class="header">
+        <!-- ------------------- <header>-------------------- -->
+            <nav>
+                <a href="index.html" class="logo"><span>CHICHI LUXURIOUS APARTMENT</a>
+                <div class="navigator" id="nav">
+                <img src="Styles/icons/close (1).png" height="20px" class="icons" onclick="hideMenu()">
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="book.html">Book</a></li>
+                        <li><a href="contact.html">Contact Us</a></li>
+                    </ul>
+                </div>
+                <img src="Styles/Icons/menu-button-of-three-horizontal-lines.png" height="20px" class="icons" onclick="showMenu()">
+            </nav>
+        <!-- </header> -->
+    </section>
+
+    <div class="my-body">
+        <div class="container">
+            <div class="popup">
+                <img src="Styles/icons/9247732.png">
+                <h2>Thank you!</h2>
+                <p>Your message has been submitted successfully. Thanks!</p>
+                <a href="index.html"><button type="button">OK</button></a>
+            </div>
+        </div>
+    </div>
+
+    <!-- ------------------ Footer ------------------  -->
+
+
+    <section class="footer">
+        <h4>About <span>Us</span></h4>
+        <!-- <div class="content"> -->
+            <p>At Chichi Luxurious Apartments we offer accommodation on short and medium term stays to clients
+                in need of affordability, privacy and serenity but with high standard in a beatiful and secure gated
+                community with a flora surrounding, park and walkways.
+            </p>
+            <div class="icons">
+                <a href="https://www.facebook.com/profile.php?id=61554028753797&sk=about_work_and_education"><img src="Styles/Icons/facebook.png" alt="" height="20px"></a>
+                <a href="https://www.instagram.com/chichi_luxurious_apartment/?hl=en"><img src="Styles/Icons/instagram (1).png" alt="" height="20px"></a>
+                <a href="mailto:mmchisanga@hotmail.com"><img src="Styles/Icons/Gmail-Logo.png" alt="" height="20px"></a>
+            </div>
+        <div class="credit">&copy;2023 created by <span>Miles Solutions</span> | all rights reserved</div>
+
+        <!-- </div> -->
+    </section>
+
+
+        <!-- ---------- JavaScript for Toggle Menu ------------ -->
+<script>
+    var nav = document.getElementById("nav");
+
+    function showMenu() {
+        nav.style.right ="0";
+    }
+    function hideMenu() {
+        nav.style.right ="-200px";
+    }
+</script>
+</body>
+</html>

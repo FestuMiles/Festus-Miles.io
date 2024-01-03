@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home || Chichi Luxurious Apartments</title>
+    <link rel="stylesheet" href="Styles/book.css">
+</head>
+<body>
+    <section class="header">
+        <!-- ------------------- <header>-------------------- -->
+            <nav>
+                <a href="index.html" class="logo"><span>CHICHI LUXURIOUS APARTMENT</a>
+                <div class="navigator" id="nav">
+                <img src="Styles/icons/close (1).png" height="20px" class="icons" onclick="hideMenu()">
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="book.html">Book</a></li>
+                        <li><a href="contact.html">Contact Us</a></li>
+                    </ul>
+                </div>
+                <img src="Styles/Icons/menu-button-of-three-horizontal-lines.png" height="20px" class="icons" onclick="showMenu()">
+            </nav>
+
+            <div class="welcome">
+                <h1>BOOK APARTMENT</h1>
+            </div>
+        <!-- </header> -->
+    </section>
+
+    <section class="package-policies">
+        <div class="package">
+            <h3>Package includes the following:</h3>
+            <p><img src="Styles/Icons/television.png">Smart TV with DSTV + Netflix</p>
+            <p><img src="Styles/Icons/wifi.png">Free WIFI</p>
+            <p><img src="Styles/Icons/oosouji.png">Cleaning Services</p>
+        </div>
+        <div class="policies">
+            <h3>Policies</h3>
+            <p><img src="Styles/Icons/no-animals.png">Pets are not allowed.</p>
+            <p><img src="Styles/Icons/parties.png" >Parties/events are not allowed.</p>
+            <p><img src="Styles/Icons/no-smoking.png">Smoking is not allowed.</p>
+        </div>
+    </section>
+
+     <!-- The home section -->
+    <section class="booking" id="booking">
+        <h3><img src="Styles/Icons/no-credit-card.png" > No Credit Card Needed To Book.</h3>
+        <p>We'll send you an email confirming your reservation.</p>
+        <div class="content">
+            <form action="https://formsubmit.co/festusmwape2001@gmail.com" method="POST">
+                <!-- ------- Honeypot-------- -->
+                <input type="text" name="_honey" style="display: none;">
+                <!-- ------ Disable Captcha ------  -->
+                <input type="hidden" name="_captcha" value="false">
+
+                <input type="hidden" name="_next" value="https://festumiles.github.io/beautyenhanced.io/success.html">
+
+                <div class="name1">
+                    <input type="text" placeholder="First Name" name="fName">
+                    <input type="text" placeholder="Last Name" name="lName">
+                </div>
+                <div class="id">
+                    <div>
+                        <select name="id-type" id="id-type" class="id-type">
+                            <option value="NRC">NRC</option>
+                            <option value="Passport">Passport</option>
+                        </select>
+                        <input type="text" placeholder="NRC/Passport Number" name="id-number" class="id-number">
+                    </div>
+                    <input type="text" placeholder="Nationality" name="nationality" class="nationality">
+                </div>
+                <div class="name2">
+                    <input type="email" placeholder="Enter Your Email" name="email" class="email">
+                    <input type="text" placeholder="Contact Number" name="number" class="number">
+                </div>
+                <div class="accommodation-for">
+                    <input type="number" placeholder="Number of persons" name="number-of-persons" class="number-of-persons">
+                    <input type="number" placeholder="Duration in Days" name="duration" class="duration">
+                    <input type="date" placeholder="Enter the date" name="date" class="date">
+                </div>
+                <button type="submit" class="submit-btn">Send Request</button>
+            </form>
+            
+        </div>
+    </section>
+
+    <!-- ------------------ Contact ------------------  -->
+    <section class="contact">
+        <h1>You Can Contact Us For <br>More Information.</h1>
+        <a href="contact.html" class="btn">Contact Us</a>
+
+    </section>
+
+    <!-- ------------------ Footer ------------------  -->
+
+
+    <section class="footer">
+        <h4>About <span>Us</span></h4>
+        <!-- <div class="content"> -->
+            <p>At Chichi Luxurious Apartments we offer accommodation on short and medium term stays to clients
+                in need of affordability, privacy and serenity but with high standard in a beatiful and secure gated
+                community with a flora surrounding, park and walkways.
+            </p>
+            <div class="icons">
+                <a href="https://www.facebook.com/profile.php?id=61554028753797&sk=about_work_and_education"><img src="Styles/Icons/facebook.png" alt="" height="20px"></a>
+                <a href="https://www.instagram.com/chichi_luxurious_apartment/?hl=en"><img src="Styles/Icons/instagram (1).png" alt="" height="20px"></a>
+                <a href="mailto:mmchisanga@hotmail.com"><img src="Styles/Icons/Gmail-Logo.png" alt="" height="20px"></a>
+            </div>
+        <div class="credit">&copy;2023 created by <span>Miles Solutions</span> | all rights reserved</div>
+
+        <!-- </div> -->
+    </section>
+
+
+        <!-- ---------- JavaScript for Toggle Menu ------------ -->
+<script>
+    var nav = document.getElementById("nav");
+
+    function showMenu() {
+        nav.style.right ="0";
+    }
+    function hideMenu() {
+        nav.style.right ="-200px";
+    }
+</script>
+</body>
+</html>
